@@ -1,0 +1,80 @@
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 180px;
+}
+.redes{
+    width: 100%;
+    height: 60px;
+    color:rgb(208, 165, 141);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.40em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    
+}
+.redes p{
+    margin: 0px 60px;
+}
+.redes__line{
+    width: 25.5%;
+    height: 1px;
+    background:rgb(208, 165, 141);
+}
+.redes__icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    height: 70px;
+}
+.redes__icon a{
+    color: rgb(207, 185, 148);
+    text-decoration: none;
+    margin: 0px 25px;
+}
+
+@media (max-width: 800px) and (min-width:651px){
+    .redes p{
+        margin: 0px 40px;
+    }
+    .redes__line{
+        width: 24%;
+        height: 1px;
+    }
+}
+@media (max-width: 650px) and (min-width:550px){
+    .redes p{
+        margin: 0px 30px;
+        font-size: 0.8em;
+    }
+    .redes__line{
+        width: 25%;
+        height: 1px;
+    }
+    .redes__icon a{
+        font-size: 1em;
+    }
+}
+@media (max-width: 549px){
+    .redes p{
+        margin: 0px 20px;
+        font-size: 0.7em;
+    }
+    .redes__line{
+        width: 20%;
+    }
+    .redes__icon a{
+        font-size: 0.8em;
+        margin: 0px 15px;
+    }
+}
+@media (max-width: 400px){
+    .redes__line{
+        width: 18%;
+    }
+}
