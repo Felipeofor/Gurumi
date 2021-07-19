@@ -1,0 +1,78 @@
+@import url(./template/nav.css);
+@import url(./template/footer.css);
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    width: 74%;
+    font-size: 1.18em;
+    margin: auto;
+}
+.encabezado p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+.encabezado span{
+    font-weight: bolder;
+}
+
+.mySwiper{
+    width: 73%;
+    height: 280px;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo{
+    width: 100%;
+    height: 60px;
+    color:rgb(208, 165, 141);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.40em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 40px;
+
+}
+.titulo p{
+    min-width: 220px;
+    text-align: center;
+    margin: 0px 60px;
+}
+
+.conocenos{
+    margin: auto;
+    width: 74%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.conocenos__img{
+    height: 560px;
+    width: 100%;
+    object-fit: cover;
+}
+.conocenos__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.conocenos__info{
+    height: auto;
+    padding-left: 40px;
+}
+.conocenos__info p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.05em;
+    margin-bottom: 25px;
+}
