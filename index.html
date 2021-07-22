@@ -18,6 +18,10 @@
 
     <header class="header">
         <!-- start nav -->
+        <div id="header__button__active">
+            <p id="button__menu_active"><i class="fas fa-bars"></i></p>
+        </div>
+
         <div id="header__logo">
             <a class="logo" href="index.html">
                 <svg width="143" height="105" viewBox="0 0 143 105" fill="none"
@@ -76,10 +80,17 @@
         
 
         <nav id="header__menu">
+            <div id="header__button__close">
+                <p id="button__menu_close"><i class="fas fa-times"></i></p>
+            </div>
             <!-- start menu -->
             <ul>
-                <li><a href="#" style="border-bottom: 4px solid rgb(208, 165, 141); font-weight: 400;">INICIO</a></li>
-                <li id="down"><a href="#">PRODUCTOS</a>
+                <div class="header__buscar__menu">
+                    <i class="fas fa-search"></i>
+                    <input  type="search" placeholder="Buscar">
+                </div>
+                <li><a href="#">INICIO</a></li>
+                <li id="down"><a href="#">PRODUCTOS <p class="fas fa-chevron-down"></p></a>
                     <!-- start menu desplegable -->
                     <ul id="down__option">
                         <li><a class="border" href="./index.html">Amigurumis</a></li>
