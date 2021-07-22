@@ -4,7 +4,7 @@ var swiper = new Swiper(".mySwiper", {
         delay: 2500,
         disableOnInteraction: false,
     },
-    spaceBetween: 30,
+    spaceBetween:15,
     slidesPerGroup: 3,
     loop: true,
     

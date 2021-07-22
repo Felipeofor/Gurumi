@@ -183,7 +183,7 @@ header{
         align-items: center;
         border-radius:20px;
         color: rgb(220, 187, 169);  
-        width:240px;
+        width:250px;
         padding: 10px 0px;
         margin-left: 15px;
         padding-left: 10px;
@@ -233,6 +233,6 @@ header{
 }
 @media (max-width: 370px){
     #header__menu{
-        width:80%
+        width:85%
     }
 }
