@@ -183,10 +183,10 @@ header{
         align-items: center;
         border-radius:20px;
         color: rgb(220, 187, 169);  
-        width:250px;
+        width:260px;
         padding: 10px 0px;
         margin-left: 15px;
-        padding-left: 10px;
+        padding-left: 5px;
     }
     .header__buscar__menu i{
         font-size: 1.1em;
@@ -196,7 +196,7 @@ header{
     .header__buscar__menu input{
         border: none;
         outline: none;
-        font-size: 1.01em;
+        font-size: 1em;
         margin-left: 5px;
     }
     .header__buscar__menu input::placeholder{
