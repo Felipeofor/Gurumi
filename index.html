@@ -16,9 +16,9 @@
 
     <!--------------------------------------HEADER-------------------------------------->
 
-    <header class="header" id="mainHeader">
+    <header class="header">
         <!-- start nav -->
-        <nav id="menu">
+        <div id="header__logo">
             <a class="logo" href="index.html">
                 <svg width="143" height="105" viewBox="0 0 143 105" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -72,16 +72,19 @@
                         fill="#333333" />
                 </svg>
             </a>
+        </div>
+        
 
+        <nav id="header__menu">
             <!-- start menu -->
             <ul>
-                <li><a href="#">INICIO</a></li>
-                <li><a href="#">PRODUCTOS</a>
+                <li><a href="#" style="border-bottom: 4px solid rgb(208, 165, 141); font-weight: 400;">INICIO</a></li>
+                <li id="down"><a href="#">PRODUCTOS</a>
                     <!-- start menu desplegable -->
-                    <ul>
-                        <li><a href="#">Amigurumis</a></li>
-                        <li><a href="#">Deco</a></li>
-                        <li><a href="#">Ropa</a></li>
+                    <ul id="down__option">
+                        <li><a class="border" href="./index.html">Amigurumis</a></li>
+                        <li><a class="border" href="#">Deco</a></li>
+                        <li><a class="border" href="#">Ropa</a></li>
                         <li><a href="#">Ver todas las categorias</a></li>
                     </ul>
                     <!-- end menu desplegable -->
@@ -89,14 +92,15 @@
                 <li><a href="#">CONTACTO</a></li>
             </ul>
             <!-- end menu -->
-            <div class="cont">
-                <label>Buscar</label>
-                <input type="search" placeholder="en esta Web" title="Presione Esc para supender la búsqueda">
-            </div>
         </nav>
+        <div class="header__buscar">
+            <i class="fas fa-search"></i>
+            <input  type="search" placeholder="Buscar">
+        </div>
         <!-- end nav -->
 
     </header>
+    
     <div class="encabezado">
         <p>¡Bienvenidos a <span>Gurumi Handmade</span>!</p>
         <p>Tejidos hechos con mucho amor y dedicacion</p>
@@ -174,6 +178,8 @@
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./Assets/js/silder.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./Assets/js/nav.js"></script>
 </body>
 
 </html>
