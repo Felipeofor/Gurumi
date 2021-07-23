@@ -2,6 +2,18 @@
 #header__button__active,#header__button__close,.header__buscar__menu{
     display: none;
 }
+
+#icon__wpp{
+    position: fixed;
+    bottom: 2%;
+    right: 1.5%;
+    z-index: 3;
+}
+#icon__wpp img{
+    width: 80px;
+    height: 80px;
+}
+
 header{
     width: 100%;
     height:135px;
@@ -43,6 +55,9 @@ header{
     margin: 0;
     padding: 10px 0px ;
     font-size: 1.0em;
+}
+.border_menu_active{
+    border-bottom: 4px solid rgb(208, 165, 141); font-weight: 400;
 }
 .border{
     border-bottom: 1px solid rgb(231, 210, 198);
@@ -93,7 +108,12 @@ header{
     outline: none;
 }
 
+
+
 @media (max-width: 949px){
+    .border_menu_active{
+        border: none;
+    }
     .header__buscar__menu{
         display: block;
     }

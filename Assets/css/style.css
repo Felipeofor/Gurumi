@@ -14,7 +14,7 @@
     margin: auto;
 }
 .encabezado p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 30px;
 }
 .encabezado span{
@@ -29,30 +29,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.titulo{
-    width: 100%;
-    height: 60px;
-    color:rgb(208, 165, 141);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.40em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 25px;
-    margin-top: 40px;
-
-}
-.titulo p{
-    min-width: 220px;
-    text-align: center;
-    margin: 0px 60px;
-}
-.redes__line{
-    width: 25.5%;
-    height: 1px;
-    background:rgb(208, 165, 141);
 }
 
 .conocenos{
@@ -75,50 +51,18 @@
 .conocenos__info{
     height: auto;
     padding-left: 40px;
+    position: relative;
 }
 .conocenos__info p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 1.05em;
     margin-bottom: 25px;
     text-align: justify;
 }
 
-@media (max-width: 850px){
-    .titulo{
-        font-size: 1.3em;
-    }
-    .titulo p{
-        min-width: 220px;
-        margin: 0px 30px;
-    }
-    .redes__line{
-        width: 25%;
-    }
-}
-@media (max-width: 699px){
-    .titulo{
-        font-size: 1.2em;
-    }
-    .titulo p{
-        min-width: auto;
-        margin: 0px 25px;
-    }
-    .redes__line{
-        width: 27%;
-    }
-}
-@media (max-width: 579px){
-    .titulo{
-        font-size: 1em;
-    }
-    .titulo p{
-        min-width: auto;
-        margin: 0px 10px;
-    }
-    .redes__line{
-        width:20%;
-    }
-}
+
 
 @media(max-width:580px){
     .encabezado{
