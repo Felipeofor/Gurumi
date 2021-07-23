@@ -9,6 +9,7 @@ footer{
     bottom: 0%;
     width: 100%;
     height: 180px;
+    background-color: white;
 }
 .titulo{
     width: 100%;
@@ -72,6 +73,10 @@ footer{
     }
 }
 @media (max-width: 699px){
+    footer{
+        z-index: 4;
+        background-color: white;
+    }
     .titulo{
         font-size: 1.2em;
     }

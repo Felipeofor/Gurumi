@@ -6,6 +6,11 @@
     padding: 0;
     
 }
+input:focus,input:active{
+    border: none;
+    outline: none;
+}
+
 #location{
     width:100%;
     height:auto;
@@ -47,12 +52,12 @@
     padding: 10px 0px;
     display: inline-block;
     width: 100%;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Lato', sans-serif;
 }
 .contacto__info p i{
     color:  rgb(220, 187, 169);  
-    font-size: 1.4em;
+    font-size: 20px;
     margin-right: 12px;
 }
 .contacto__form{
@@ -85,6 +90,11 @@
     height: 45px;
     border-radius: 10px;
     border: 1px solid rgb(208, 165, 141);
+    padding: 0px 15px;
+    font-size: 17px;
+}
+.label__content input:focus{
+    border: 2px solid rgb(208, 165, 141);
 }
 .label__content textarea{
     width: 100%;
@@ -116,9 +126,9 @@
 }
 @media (max-width:751px){
     .contacto__info{
-        width: 70%;
+        width: 90%;
         height: auto;
-        padding: 20px 10px;
+        padding: 0px 10px;
         margin: auto;
         
     }
@@ -154,12 +164,22 @@
         top: 10%;
         width: 100%;
     }
+    .contacto__info p{
+        padding: 10px 10%;
+    }
 }
 @media (max-width:460px){
+    .contacto__info{
+        width: 100%;
+    }
     #contacto__conteiner img{
         position: absolute;
         left:0%;
         top: 20%;
         width: 100%;
+    }
+    .contacto__info p{
+        padding: 10px 10%;
+        font-size: 15px;
     }
 }
