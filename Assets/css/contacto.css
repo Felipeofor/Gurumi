@@ -46,13 +46,13 @@ input:focus,input:active{
 .contacto__info{
     width: 50%;
     height: 400px;
-    padding: 20px 10px;
+    padding: 20px 5px;
 }
 .contacto__info p{
     padding: 10px 0px;
     display: inline-block;
     width: 100%;
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
 .contacto__info p i{
@@ -124,11 +124,14 @@ input:focus,input:active{
     font-weight: 400;
     color: white;
 }
+@media (max-width:935px){
+    
+}
 @media (max-width:751px){
     .contacto__info{
         width: 90%;
         height: auto;
-        padding: 0px 10px;
+        padding: 0px 10%;
         margin: auto;
         
     }
@@ -165,7 +168,7 @@ input:focus,input:active{
         width: 100%;
     }
     .contacto__info p{
-        padding: 10px 10%;
+        padding: 10px 0%;
     }
 }
 @media (max-width:460px){
@@ -179,7 +182,11 @@ input:focus,input:active{
         width: 100%;
     }
     .contacto__info p{
-        padding: 10px 10%;
+        padding: 10px 15px;
         font-size: 15px;
+    }
+    .contacto__info p i{
+        font-size: 17px;
+        margin-right: 8px;
     }
 }
