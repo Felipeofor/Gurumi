@@ -1,0 +1,47 @@
+
+.card {
+    width: 231px;
+    height: 354px;
+    border-radius: 10px;
+    position: absolute;
+    background-image: url();
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    filter: drop-shadow(2px 2px 2px rgba(51, 51, 51, 0.25));
+  
+  }
+  
+  .card__text {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 76.36%;
+    bottom: 0%;
+  
+    /* Claro */
+  
+    background: #e5dfd3;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  .card__text_content{
+    position: absolute;
+    left: 4.49%;
+    right: 4.19%;
+    top: 0%;
+    bottom: 1.6%;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    
+    /* Negro */
+    
+    color: #333333;
+  
+  }
