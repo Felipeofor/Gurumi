@@ -3,7 +3,8 @@
 $.getJSON( "../Assets/js/productos.json", function(data){
     let card__content=document.getElementById("card__content")
     for (const producto of data) {
-        card__content.innerHTML+=`
+        if (producto.tipo == tipo || tipo=="todos") {
+            card__content.innerHTML+=`
             <div class="card"  onclick="modal(${producto.id})">
                 <div class="card__img">
                     <img src="${producto.img[0]}">
@@ -13,6 +14,8 @@ $.getJSON( "../Assets/js/productos.json", function(data){
                     <p class="">Medidas ${producto.medidas}</p>
                 </div>
             </div>`
+        }
+       
     }
    
 }) 
@@ -59,7 +62,7 @@ function modal(id) {
                     </div>
                     <div class="modal__line"></div>
                     <div class="modal__consulta">
-                        <button>Consultar</button>
+                        <a href="./contacto.html"><button>Consultar</button></a>
                     </div>
                 </div>
                 <div id="close__modal" onclick="CloseModal()">

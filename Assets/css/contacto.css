@@ -6,7 +6,7 @@
     padding: 0;
     
 }
-input:focus,input:active{
+input:focus,input:active,textarea:focus,textarea:active{
     border: none;
     outline: none;
 }
@@ -87,7 +87,10 @@ input:focus,input:active{
     width: 100%;
     border: 1px solid rgb(208, 165, 141);
     border-radius: 10px;
-
+    font-size: 17px;
+    padding: 10px 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
 }
 .button__content{
     margin-top: 20px;

@@ -104,6 +104,9 @@
     margin-top: 10%;
     width: 100%;
 }
+.modal__consulta a{
+    text-decoration: none;
+}
 .modal__consulta button{
     background: #CFB994;
     box-shadow: 2px 2px 2px rgba(51, 51, 51, 0.25);
@@ -126,6 +129,7 @@
     background: #a38655;
     transition: all 0.3s;
 }
+
 #close__modal{
     position: absolute;
     right: 3.8%;
