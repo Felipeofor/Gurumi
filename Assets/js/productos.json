@@ -1,18 +1,129 @@
 [
-    {"id":1,"tipo":"amigurumi","nombre":"Carlitos","medidas":"30 x 15 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":2,"tipo":"amigurumi","nombre":"Ariel la sirenita","medidas":"30 x 15 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":3,"tipo":"amigurumi","nombre":"pikachu","medidas":"15 x 15 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":4,"tipo":"amigurumi","nombre":"olaf de frozen","medidas":"15 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":5,"tipo":"amigurumi","nombre":"jirafa","medidas":"20 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":6,"tipo":"amigurumi","nombre":"elsa de frozen","medidas":"30 x 15 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":7,"tipo":"amigurumi","nombre":"ana de frozen","medidas":"30 x 15 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":8,"tipo":"amigurumi","nombre":"princesa jazmin","medidas":"30 x 15 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":9,"tipo":"amigurumi","nombre":"among us","medidas":"10 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":10,"tipo":"amigurumi","nombre":"blancanieves","medidas":"10 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":11,"tipo":"amigurumi","nombre":"cenicienta","medidas":"10 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":12,"tipo":"amigurumi","nombre":"aurora","medidas":"10 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":13,"tipo":"amigurumi","nombre":"once","medidas":"20 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":14,"tipo":"amigurumi","nombre":"wolverine","medidas":"15 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":15,"tipo":"amigurumi","nombre":"chewbacca","medidas":"10 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]},
-    {"id":16,"tipo":"amigurumi","nombre":"freddy","medidas":"15 x 10 cm","img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]}
+    {
+        "id":1,
+        "tipo":"amigurumi",
+        "nombre":"Carlitos",
+        "medidas":"30 x 15 cm",
+        "img":["../Img/productos/carlitos-1.jpg","../Img/productos/carlitos-2.jpg","../Img/productos/carlitos-3.jpg"]
+    },
+
+    {
+        "id":2,
+        "tipo":"amigurumi",
+        "nombre":"Ariel la sirenita",
+        "medidas":"30 x 15 cm",
+        "img":["../Img/productos/ariel-1.jpg","../Img/productos/ariel-2.jpg","../Img/productos/ariel-3.jpg"]
+    },
+
+    {
+        "id":3,
+        "tipo":"amigurumi",
+        "nombre":"pikachu",
+        "medidas":"15 x 15 cm",
+        "img":["../Img/productos/pikachu-1.jpg","../Img/productos/pikachu-2.jpg","../Img/productos/pikachu-3.jpg"]
+    },
+
+    {
+        "id":4,
+        "tipo":"amigurumi",
+        "nombre":"olaf de frozen",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/olaf-1.jpg","../Img/productos/olaf-2.jpg","../Img/productos/olaf-3.jpg"]
+    },
+
+    {
+        "id":5,
+        "tipo":"amigurumi",
+        "nombre":"jirafa",
+        "medidas":"20 x 10 cm",
+        "img":["../Img/productos/jirafa-1.jpg","../Img/productos/jirafa-2.jpg","../Img/productos/jirafa-3.jpg"]
+    },
+
+    {
+        "id":6,
+        "tipo":"amigurumi",
+        "nombre":"elsa de frozen",
+        "medidas":"30 x 15 cm",
+        "img":["../Img/productos/elsa-1.jpg","../Img/productos/elsa-2.jpg","../Img/productos/elsa-3.jpg"]
+    },
+
+    {
+        "id":7,
+        "tipo":"amigurumi",
+        "nombre":"ana de frozen",
+        "medidas":"30 x 15 cm",
+        "img":["../Img/productos/ana-1.jpg","../Img/productos/ana-2.jpg","../Img/productos/ana-3.jpg"]
+    },
+
+    {
+        "id":8,
+        "tipo":"amigurumi",
+        "nombre":"princesa jazmin",
+        "medidas":"30 x 15 cm",
+        "img":["../Img/productos/jazmin-1.jpg","../Img/productos/jazmin-2.jpg","../Img/productos/jazmin-3.jpg"]
+    },
+
+    {
+        "id":9,
+        "tipo":"amigurumi",
+        "nombre":"among us",
+        "medidas":"10 x 10 cm",
+        "img":["../Img/productos/among-1.jpg","../Img/productos/among-2.jpg","../Img/productos/among-3.jpg"]
+    },
+
+    {
+        "id":10,
+        "tipo":"amigurumi",
+        "nombre":"blancanieves",
+        "medidas":"10 x 10 cm",
+        "img":["../Img/productos/blancanieves-1.jpg","../Img/productos/blancanieves-2.jpg","../Img/productos/blancanieves-3.jpg"]
+    },
+
+    {
+        "id":11,
+        "tipo":"amigurumi",
+        "nombre":"cenicienta",
+        "medidas":"10 x 10 cm",
+        "img":["../Img/productos/cenicienta-1.jpg","../Img/productos/cenicienta-2.jpg","../Img/productos/cenicienta-3.jpg"]
+    },
+
+    {
+        "id":12,
+        "tipo":"amigurumi",
+        "nombre":"aurora",
+        "medidas":"10 x 10 cm",
+        "img":["../Img/productos/aurora-1.jpg","../Img/productos/aurora-2.jpg","../Img/productos/aurora-3.jpg"]
+    },
+
+    {
+        "id":13,
+        "tipo":"amigurumi",
+        "nombre":"once",
+        "medidas":"20 x 10 cm",
+        "img":["../Img/productos/once-1.jpg","../Img/productos/once-2.jpg","../Img/productos/once-3.jpg"]
+        },
+
+    {
+        "id":14,
+        "tipo":"amigurumi",
+        "nombre":"wolverine",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/wolverine-1.jpg","../Img/productos/wolverine-2.jpg","../Img/productos/wolverine-3.jpg"]
+    },
+
+    {
+        "id":15,
+        "tipo":"amigurumi",
+        "nombre":"chewbacca",
+        "medidas":"10 x 10 cm",
+        "img":["../Img/productos/chewbacca-1.jpg","../Img/productos/chewbacca-2.jpg","../Img/productos/chewbacca-3.jpg"]
+    },
+
+    {
+        "id":16,
+        "tipo":"amigurumi",
+        "nombre":"freddy",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/freddy-1.jpg","../Img/productos/freddy-2.jpg","../Img/productos/freddy-3.jpg"]
+    }
 ]
