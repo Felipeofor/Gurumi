@@ -54,7 +54,9 @@
     object-fit: cover;
     border-radius:5px ;
 }
-
+.img_opacity{
+    opacity: 0.5;
+}
 
 #modal__img{
     width: 38%;

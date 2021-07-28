@@ -18,7 +18,6 @@ $.getJSON( "../Assets/js/productos.json", function(data){
 }) 
 
 function modal(id) {
-    console.log(id)
     let modal__content=document.getElementById("modal__content")
     $("#modal").css("display", "flex");
     $("#modal").css("position", "fixed");
@@ -33,11 +32,11 @@ function modal(id) {
                     </div>
 
                     <div class="img__option__content">
-                        <img style="object-fit: cover;" class="img__modal__option" src="${producto.img[1]}" alt="">
+                        <img style="object-fit: cover;" class="img__modal__option img_opacity" src="${producto.img[1]}" alt="">
                     </div>
 
                     <div class="img__option__content">
-                        <img style="object-fit: cover;" class="img__modal__option" src="${producto.img[2]}" alt="">
+                        <img style="object-fit: cover;" class="img__modal__option img_opacity" src="${producto.img[2]}" alt="">
                     </div>
 
                 </div>
@@ -75,6 +74,10 @@ function modal(id) {
             $("#modal__content").css("transform","translateY(0%)")
             for (const img of $(".img__modal__option")) {
                 img.addEventListener("click",function(){
+                    for (const imgopaciti of $(".img__modal__option")){
+                        $(imgopaciti).addClass("img_opacity")
+                    }
+                    $(img).removeClass("img_opacity")
                     let direccion=img.getAttribute("src")
                     let imagen=document.getElementById("img__modal")
                     imagen.setAttribute("src", direccion);
@@ -87,6 +90,7 @@ function CloseModal(){
     $("#modal").css("display", "none")
     $("#modal__content").css("transform","translateY(-200%)")
 }
+
 
 
 
