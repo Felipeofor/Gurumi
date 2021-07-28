@@ -187,14 +187,14 @@
     }
 }
 @media (max-width:599px){
-    #modal__content{width: 350px; height: 480px;}
+    #modal__content{width: 350px; height: 500px;}
     .li{font-size: 12px;}
     #modal__info{
         font-size: 12px;
     }
 }
 @media (max-width:420px){
-    #modal__content{width: 290px; height: 480px;;}
+    #modal__content{width: 305px; height: 500px;}
     .li{font-size: 12px;}
     #modal__info{
         padding: 10px 0px;

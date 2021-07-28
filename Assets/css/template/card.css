@@ -36,7 +36,9 @@
   padding: 15px 10px;
   font-family: 'Lato', sans-serif;
 }
-
+.card__text h3{
+  text-transform: uppercase;
+}
 @media (max-width:1100px) {
   #card__content{
     display: grid;
