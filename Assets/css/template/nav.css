@@ -3,6 +3,22 @@
     display: none;
 }
 
+#location{
+    width:100%;
+    height:auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(220, 187, 169);
+    font-size: 1em;
+}
+#location span{
+    font-weight: 700;
+}
+#location i{
+    margin: 0px 3px;
+}
+
+
 #icon__wpp{
     position: fixed;
     bottom: 2%;
@@ -43,6 +59,7 @@ header{
     box-shadow: 2px 3px 8px 2px rgb(219, 219, 219) ;
     border-radius: 10px;
     padding: 10px 15px ;
+    z-index: 3;
     
 }
 #header__menu  li ul li{
