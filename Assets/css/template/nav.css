@@ -160,12 +160,12 @@ header{
         width:40%;
         height: 100vh;
         position: absolute;
+        z-index: 6;
         top: 0;
         left: 0;
         background-color: white;
         box-shadow: 2px 3px 8px 2px rgb(219, 219, 219) ;
         padding-bottom:30px ;
-
     }
     #header__button__close{
         margin-top: 13px;
