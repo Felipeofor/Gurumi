@@ -125,5 +125,96 @@
         "nombre":"freddy",
         "medidas":"15 x 10 cm",
         "img":["../Img/productos/freddy-1.jpg","../Img/productos/freddy-2.jpg","../Img/productos/freddy-3.jpg"]
+    },
+    {
+        "id":17,
+        "tipo":"ropa",
+        "nombre":"Chaleco Alaska",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/ChalecoAlaska-1.jpg","../Img/productos/ChalecoAlaska-2.jpg","../Img/productos/ChalecoAlaska-3.jpg"]
+    },
+    {
+        "id":18,
+        "tipo":"ropa",
+        "nombre":"Chaleco Helsinki",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/ChalecoHelsinki-1.jpg","../Img/productos/ChalecoHelsinki-2.jpg","../Img/productos/ChalecoHelsinki-3.jpg"]
+    },
+    {
+        "id":19,
+        "tipo":"ropa",
+        "nombre":"Cuello Ottawa",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/CuelloOttawa-1.jpg","../Img/productos/CuelloOttawa-2.jpg","../Img/productos/CuelloOttawa-3.jpg"]
+    },
+    {
+        "id":20,
+        "tipo":"ropa",
+        "nombre":"Cuello Toronto",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/CuelloToronto-1.jpg","../Img/productos/CuelloToronto-2.jpg","../Img/productos/CuelloToronto-3.jpg"]
+    },
+    {
+        "id":21,
+        "tipo":"ropa",
+        "nombre":"Cuello Vancouver",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/CuelloVancouver-1.jpg","../Img/productos/CuelloVancouver-2.jpg","../Img/productos/CuelloVancouver-3.jpg"]
+    },
+    {
+        "id":22,
+        "tipo":"ropa",
+        "nombre":"Jardinero Tennessee",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/JardineroTennessee-1.jpg","../Img/productos/JardineroTennessee-2.jpg","../Img/productos/JardineroTennessee-3.jpg"]
+    },
+    {
+        "id":23,
+        "tipo":"ropa",
+        "nombre":"Saco Denver",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/SacoDenver-1.jpg","../Img/productos/SacoDenver-2.jpg","../Img/productos/SacoDenver-3.jpg"]
+    },
+    {
+        "id":24,
+        "tipo":"ropa",
+        "nombre":"Saco Levi",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/SacoLevi-1.jpg","../Img/productos/SacoLevi-2.jpg","../Img/productos/SacoLevi-3.jpg"]
+    },
+    {
+        "id":25,
+        "tipo":"ropa",
+        "nombre":"Saco Nebraska",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/SacoNebraska-1.jpg","../Img/productos/SacoNebraska-2.jpg"]
+    },
+    {
+        "id":26,
+        "tipo":"ropa",
+        "nombre":"Escarpines Seattle",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/EscarpinesSeattle.jpg","../Img/productos/EscarpinesSeattle2.jpg","../Img/productos/EscarpinesSeattle-3.jpg"]
+    },
+    {
+        "id":27,
+        "tipo":"ropa",
+        "nombre":"Conjunto Québec",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/ConjuntoQuébec-1.jpg","../Img/productos/ConjuntoQuébec-2.jpg","../Img/productos/ConjuntoQuébec-3.jpg"]
+    },
+    {
+        "id":28,
+        "tipo":"ropa",
+        "nombre":"Cuello Ontario",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/CuelloOntario.jpg"]
+    },
+    {
+        "id":29,
+        "tipo":"ropa",
+        "nombre":"Gorro Osito",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/Gorroosito.jpg"]
     }
 ]

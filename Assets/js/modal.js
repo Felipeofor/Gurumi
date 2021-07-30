@@ -1,5 +1,6 @@
 
 
+
 $.getJSON( "../Assets/js/productos.json", function(data){
     let card__content=document.getElementById("card__content")
     for (const producto of data) {
@@ -20,6 +21,17 @@ $.getJSON( "../Assets/js/productos.json", function(data){
    
 }) 
 
+function Renderimg(producto){
+    let img=document.getElementById("modal__img_option")
+    producto.img.forEach(element => {
+        img.innerHTML+=`
+        <div class="img__option__content">
+            <img style="object-fit: cover;" class="img__modal__option img_opacity" src="${element}" alt="">
+        </div>
+        `
+    });
+    
+}
 function modal(id) {
     let modal__content=document.getElementById("modal__content")
     $("#modal").css("display", "flex");
@@ -29,19 +41,6 @@ function modal(id) {
             if (producto.id == id) {
                 modal__content.innerHTML=`
                 <div id="modal__img_option">
-
-                    <div class="img__option__content">
-                        <img style="object-fit: cover;" class="img__modal__option" src="${producto.img[0]}" alt="">
-                    </div>
-
-                    <div class="img__option__content">
-                        <img style="object-fit: cover;" class="img__modal__option img_opacity" src="${producto.img[1]}" alt="">
-                    </div>
-
-                    <div class="img__option__content">
-                        <img style="object-fit: cover;" class="img__modal__option img_opacity" src="${producto.img[2]}" alt="">
-                    </div>
-
                 </div>
 
                 <div id="modal__img">
@@ -69,11 +68,19 @@ function modal(id) {
                     <i class="fas fa-times"></i>
                 </div>
                 `
+
+                Renderimg(producto)
             }
+            
+
         }
     }) 
         
         setTimeout(() => {
+            let prueba=document.getElementsByClassName("img__modal__option")
+            prueba[0].classList.remove("img_opacity")
+            
+            // $(".img__modal__option")[0].removeClass("img_opacity")
             $("#modal__content").css("transform","translateY(0%)")
             for (const img of $(".img__modal__option")) {
                 img.addEventListener("click",function(){
