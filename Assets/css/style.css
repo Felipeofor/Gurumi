@@ -50,6 +50,11 @@
     position: absolute;
     border-radius: 10px;
     border:1px solid rgba(208, 165, 141,0.8);
+    transition: all 0.3s;
+}
+.conocenos__img img:hover{
+    transform: scale(1.08);
+    z-index: 3;
 }
 .img__top{
     top: 7%;

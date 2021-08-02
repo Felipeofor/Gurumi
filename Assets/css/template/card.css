@@ -9,6 +9,7 @@
 }
 
 .card{
+  cursor: pointer;
   width: 231px;
   height: 354px;
   border-radius: 10px;
