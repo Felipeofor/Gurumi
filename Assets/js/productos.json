@@ -216,5 +216,40 @@
         "nombre":"Gorro Osito",
         "medidas":"15 x 10 cm",
         "img":["../Img/productos/Gorroosito.jpg"]
+    },
+    {
+        "id":30,
+        "tipo":"deco",
+        "nombre":"Alfombra Circular",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/AlfombraCircular-1.jpg","../Img/productos/AlfombraCircular-2.jpg"]
+    },
+    {
+        "id":31,
+        "tipo":"deco",
+        "nombre":"Banderin Nombre",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/BanderinNombre-1.jpg","../Img/productos/BanderinNombre-2.jpg","../Img/productos/BanderinNombre-3.jpg"]
+    },
+    {
+        "id":32,
+        "tipo":"deco",
+        "nombre":"Centro de mesa + posa vaso",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/CentroMesaMasPosaVaso-1.jpg","../Img/productos/CentroMesaMasPosaVaso-2.jpg","../Img/productos/CentroMesaMasPosaVaso-3.jpg"]
+    },
+    {
+        "id":33,
+        "tipo":"deco",
+        "nombre":"Deco Navideña",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/DecoNavideña-1.jpg","../Img/productos/DecoNavideña-2.jpg","../Img/productos/DecoNavideña-3.jpg"]
+    },
+    {
+        "id":33,
+        "tipo":"deco",
+        "nombre":"Letras",
+        "medidas":"15 x 10 cm",
+        "img":["../Img/productos/Letras-1.jpg","../Img/productos/Letras-2.jpg","../Img/productos/Letras-3.jpg"]
     }
 ]
