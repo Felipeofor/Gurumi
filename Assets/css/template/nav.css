@@ -105,7 +105,8 @@ header{
     align-items: center;
     justify-content: center;
     border-radius:20px;
-    color: rgb(220, 187, 169);  
+    color: rgb(220, 187, 169);
+    display: none;  
 }
 .header__buscar i{
     font-size: 1.3em;
